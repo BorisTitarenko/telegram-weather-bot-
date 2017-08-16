@@ -1,9 +1,9 @@
 import fractions
 import requests
 import json
-token = '314198607:AAHEH_pjSxa3jURE3IIofTk9zK8Y5-rHq2k'
+token = 'you token'
 
-api = 'ece1d9e5fc8e443e9c3c1243184cbbb3'
+api = 'your api key'
 
 url = 'http://api.openweathermap.org/data/2.5/forecast'
 
