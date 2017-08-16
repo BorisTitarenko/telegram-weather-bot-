@@ -18,5 +18,3 @@ def weather(city):
 		lst.append(string)
 	return lst
 
-def gcd(a, b):
-	return fractions.gcd(a, b)
