@@ -1,9 +1,9 @@
 
 import requests
 import json
-token = 'you token'
+token = input('you token')
 
-api = 'your api key'
+api = input('your api key')
 
 url = 'http://api.openweathermap.org/data/2.5/forecast'
 
