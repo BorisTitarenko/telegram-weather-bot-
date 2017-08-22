@@ -1,10 +1,12 @@
 
 import requests
 import json
-token = input('you token')
-
-api = input('your api key')
-
+with open("keys.txt", "r") as f:
+	f = f.read().splitlines()
+	global token
+	global api
+	token = f[0]
+	api = f[1]
 url = 'http://api.openweathermap.org/data/2.5/forecast'
 
 def weather(city):
