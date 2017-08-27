@@ -1,1 +1,1 @@
-web: gunicorn weatherbot.wsgi --log-file -
+web: gunicorn script.wsgi --log-file -
